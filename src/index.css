@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./background.svg);
+}
