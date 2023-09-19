@@ -17,6 +17,8 @@ nav {
 }
 .profile span{
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   color:#000;
@@ -26,15 +28,15 @@ nav {
 .profile span:hover{
   color: #fca311;
 }
-.profilePhoto{
-  height: 60px;
-}
 .profilePhotoContainer{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
   overflow: hidden;
-  margin: 0 15px;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 1.2rem;
+  border-radius: 50px;
+}
+.profilePhoto{
+  width: 100%;
 }
 .menu{
   margin-right: 30px;
@@ -43,10 +45,16 @@ nav {
   color: #000;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  font-size: 1.6rem;
   margin: 0 30px;
   cursor: pointer;
   transition: all 0.2s;
 }
 .menu span:hover{
   color: #fca311;
+}
+@media screen and (max-width: 767px) {
+  .menu{
+    display: none;
+  }
 }
