@@ -3,10 +3,10 @@ import { LinkedIn, Facebook, Instagram, GitHub } from '@mui/icons-material';
 
 export default function Home(){
   return (
-    <>
+    <section className='home'>
         <div className="greeting">
-          <span>Hey! I'M HAITHAM BENHAMMOUDA</span>
-          <p>A Full Stack Web developer focused on building simple and complexed web applications <br/> on demand</p>
+          <span>HEY, I'M HAITHAM BENHAMMOUDA</span>
+          <p>A Full Stack Web developer focused on building simple and complexed web applications on demand</p>
           <input type="button" value="PROJECTS" />
         </div>
         <div className="socialMedia">
@@ -26,6 +26,6 @@ export default function Home(){
         <div className='mouseScroll'>
           <div className="mouse"></div>
         </div>
-    </>
+    </section>
   )  
 }
