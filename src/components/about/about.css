@@ -108,10 +108,10 @@
 }
 @keyframes infinite-scroll {
   from {
-    transform: translateX(70%);
+    transform: translateX(50%);
   }
   to {
-    transform: translateX(-30%);
+    transform: translateX(-50%);
   }
 }
 
